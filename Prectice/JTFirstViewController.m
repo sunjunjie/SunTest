@@ -10,6 +10,9 @@
 
 @interface JTFirstViewController ()
 
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segments;
+@property (weak, nonatomic) IBOutlet UIView *changeViews;
+
 @end
 
 @implementation JTFirstViewController
@@ -23,10 +26,22 @@
     return self;
 }
 
+- (IBAction)segmentAction:(id)sender {
+    if (self.segments.selectedSegmentIndex == 0) {
+        self.changeViews.backgroundColor = [UIColor greenColor];
+    }
+    if (self.segments.selectedSegmentIndex == 1) {
+        self.changeViews.backgroundColor = [UIColor blueColor];
+    }
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.segments.selectedSegmentIndex = 1;
+    [self segmentAction:self.segments];
+    
 }
 
 - (void)didReceiveMemoryWarning

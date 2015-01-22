@@ -90,9 +90,31 @@
                     <view key="view" contentMode="scaleToFill" id="BRs-K2-EUx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Ybn-RM-BHA">
+                                <rect key="frame" x="66" y="104" width="123" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentAction:" destination="osx-jh-0t0" eventType="valueChanged" id="gZq-me-XdF"/>
+                                </connections>
+                            </segmentedControl>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XUW-jc-7YK">
+                                <rect key="frame" x="66" y="158" width="160" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.78530816654636204" blue="0.40533132566978236" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="gv8-w9-a9r"/>
+                    <connections>
+                        <outlet property="changeViews" destination="XUW-jc-7YK" id="em9-5H-wmK"/>
+                        <outlet property="segments" destination="Ybn-RM-BHA" id="kSK-30-0QF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xem-Kw-OEW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
