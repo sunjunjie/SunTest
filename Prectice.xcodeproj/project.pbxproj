@@ -24,6 +24,7 @@
 		DC12B14B1A709B2600459913 /* PrecticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC12B14A1A709B2600459913 /* PrecticeTests.m */; };
 		DC12B1561A709C2C00459913 /* JTFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC12B1551A709C2C00459913 /* JTFirstViewController.m */; };
 		DC12B1591A709C3D00459913 /* JTSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC12B1581A709C3D00459913 /* JTSecondViewController.m */; };
+		DC12B15C1A70DD5A00459913 /* JTDiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC12B15B1A70DD5A00459913 /* JTDiViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		DC12B1551A709C2C00459913 /* JTFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTFirstViewController.m; sourceTree = "<group>"; };
 		DC12B1571A709C3D00459913 /* JTSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSecondViewController.h; sourceTree = "<group>"; };
 		DC12B1581A709C3D00459913 /* JTSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSecondViewController.m; sourceTree = "<group>"; };
+		DC12B15A1A70DD5A00459913 /* JTDiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDiViewController.h; sourceTree = "<group>"; };
+		DC12B15B1A70DD5A00459913 /* JTDiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDiViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				DC12B1551A709C2C00459913 /* JTFirstViewController.m */,
 				DC12B1571A709C3D00459913 /* JTSecondViewController.h */,
 				DC12B1581A709C3D00459913 /* JTSecondViewController.m */,
+				DC12B15A1A70DD5A00459913 /* JTDiViewController.h */,
+				DC12B15B1A70DD5A00459913 /* JTDiViewController.m */,
 				DC12B1371A709B2600459913 /* Images.xcassets */,
 				DC12B1231A709B2600459913 /* Supporting Files */,
 			);
@@ -265,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC12B1591A709C3D00459913 /* JTSecondViewController.m in Sources */,
+				DC12B15C1A70DD5A00459913 /* JTDiViewController.m in Sources */,
 				DC12B12D1A709B2600459913 /* JTAppDelegate.m in Sources */,
 				DC12B1361A709B2600459913 /* JTViewController.m in Sources */,
 				DC12B1291A709B2600459913 /* main.m in Sources */,
@@ -483,6 +489,7 @@
 				DC12B1501A709B2600459913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC12B1511A709B2600459913 /* Build configuration list for PBXNativeTarget "PrecticeTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +498,7 @@
 				DC12B1531A709B2600459913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
