@@ -12,6 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segments;
 @property (weak, nonatomic) IBOutlet UIView *changeViews;
+@property (weak, nonatomic) IBOutlet UILabel *showContents;
 
 @end
 

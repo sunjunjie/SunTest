@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EA9E37B7-55B2-4709-AEC0-36CBE1B03345</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Prectice</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9D3C0444-CE7D-486B-8FFB-A63DEEF4670A</key>
+		<string>https://github.com/sunjunjie/SunTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Prectice.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9D3C0444-CE7D-486B-8FFB-A63DEEF4670A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sunjunjie/SunTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9D3C0444-CE7D-486B-8FFB-A63DEEF4670A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9D3C0444-CE7D-486B-8FFB-A63DEEF4670A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Prectice</string>
+		</dict>
+	</array>
+</dict>
+</plist>
