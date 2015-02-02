@@ -25,6 +25,7 @@
 		DC12B1561A709C2C00459913 /* JTFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC12B1551A709C2C00459913 /* JTFirstViewController.m */; };
 		DC12B1591A709C3D00459913 /* JTSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC12B1581A709C3D00459913 /* JTSecondViewController.m */; };
 		DC12B15C1A70DD5A00459913 /* JTDiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC12B15B1A70DD5A00459913 /* JTDiViewController.m */; };
+		DC96C58E1A7F525C00E43360 /* Jar_Common.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC96C58D1A7F525C00E43360 /* Jar_Common.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		DC12B1581A709C3D00459913 /* JTSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSecondViewController.m; sourceTree = "<group>"; };
 		DC12B15A1A70DD5A00459913 /* JTDiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDiViewController.h; sourceTree = "<group>"; };
 		DC12B15B1A70DD5A00459913 /* JTDiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDiViewController.m; sourceTree = "<group>"; };
+		DC96C58D1A7F525C00E43360 /* Jar_Common.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Jar_Common.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		DC12B1221A709B2600459913 /* Prectice */ = {
 			isa = PBXGroup;
 			children = (
+				DC96C58D1A7F525C00E43360 /* Jar_Common.bundle */,
 				DC12B12B1A709B2600459913 /* JTAppDelegate.h */,
 				DC12B12C1A709B2600459913 /* JTAppDelegate.m */,
 				DC12B12E1A709B2600459913 /* Main_iPhone.storyboard */,
@@ -250,6 +253,7 @@
 				DC12B1331A709B2600459913 /* Main_iPad.storyboard in Resources */,
 				DC12B1381A709B2600459913 /* Images.xcassets in Resources */,
 				DC12B1301A709B2600459913 /* Main_iPhone.storyboard in Resources */,
+				DC96C58E1A7F525C00E43360 /* Jar_Common.bundle in Resources */,
 				DC12B1271A709B2600459913 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
